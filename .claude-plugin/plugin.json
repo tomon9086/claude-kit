@@ -1,0 +1,9 @@
+{
+  "name": "claude-kit",
+  "description": "複数のプロジェクトをまたいで再利用できる Claude 用スキル・ナレッジ集",
+  "version": "0.1.0",
+  "author": {
+    "name": "tomon9086"
+  },
+  "repository": "https://github.com/tomon9086/claude-kit"
+}
