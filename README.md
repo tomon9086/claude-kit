@@ -14,12 +14,18 @@
 
 ## スキル一覧
 
-> スキルはまだありません。[新規スキルの追加手順](docs/development.md#新規スキルを追加する手順) を参照してください。
+| スキル | 説明 |
+|--------|------|
+| [ping-google](skills/ping-google/SKILL.md) | google.com への ping 疎通確認 |
+| [playwright](skills/playwright/SKILL.md) | Playwright MCP を使ったブラウザ自動操作・スクレイピング |
+
+新しいスキルを追加する場合は [新規スキルの追加手順](docs/development.md#新規スキルを追加する手順) を参照してください。
 
 ## ディレクトリ構成
 
 ```
 /
+├── CLAUDE.md
 ├── README.md
 ├── docs/
 │   ├── spec.md
@@ -27,6 +33,7 @@
 │   ├── todo.md
 │   ├── knowledge.md
 │   └── development.md
+├── output/           # スキル実行結果の一時保存先（.gitignore 対象）
 └── skills/
     └── <skill-name>/
         └── SKILL.md
